@@ -17,7 +17,7 @@ class MQTTManager {
 
     private val brokerUrl = "tcp://io.adafruit.com:1883"
     private val username  = "nicohc"
-    private val password  = "aio_KOQz9077t0pnepBgwcsibIrWSALK"
+    private val password  = = ""
 
     private val topicControl   = "nicohc/feeds/enchufe-dot-control"   // publica: "ON"/"OFF"
     private val topicEstado    = "nicohc/feeds/enchufe-dot-status"    // subscribe: "ON"/"OFF"
